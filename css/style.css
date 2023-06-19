@@ -24,7 +24,11 @@ body {
 }
 
 #formulario-tarefas {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 #formulario-tarefas input {
@@ -46,15 +50,12 @@ body {
 } 
 
 #botao {
-    position: absolute;
     background: #FFF;
     border: 1px solid #34073D;
     cursor: pointer;
     transition: .4s;
     width: 60px;
     height: 53px;
-    top: 0;
-    right: 0;
     padding-top: 3px;
 }
 
@@ -75,6 +76,7 @@ ion-icon {
 }
 
 #lista li {
+    margin: auto;
     position: relative;
     text-align: left;
     height: 50px;
