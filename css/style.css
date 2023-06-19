@@ -102,11 +102,11 @@ ion-icon {
     padding: 5px;
 }
 
-.adicionar {
+.completar {
     right: 40px;
 }
 
-.adicionar:hover {
+.completar:hover {
     color: #FFF;
     background-color: #09E01B;
 }
